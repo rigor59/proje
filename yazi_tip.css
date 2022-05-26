@@ -1,0 +1,14 @@
+p#first {
+  text-align: left;
+}
+
+p#second {
+  text-align: center;
+}
+
+p#third {
+  text-align: right;
+}
+p#fourth{
+    text-align:justify;
+  }
