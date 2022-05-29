@@ -362,7 +362,7 @@
       <div class="mat3-kutu-2"><b>Bölünen = (Bölen × Bölüm) + Kalan</b></div><br>
 
     
-       <a style="position: absolute;top: 14420px;right: 417px;" href="regis_mat.php" class="quiz-buton"><span>HAYDİ ŞİMDİ QUİZE</span></a>
+       <a style="position: absolute;top: 14750px;right: 417px;" href="regis_mat.php" class="quiz-buton"><span>HAYDİ ŞİMDİ QUİZE</span></a>
        <br><br><br>
         </a>
       </div>

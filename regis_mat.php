@@ -38,12 +38,15 @@
 </head>
 
 <body>
-    
+<p style="font-size:26px; color:#082465;text-align:center;margin-top:90px ">
+Devam etmek için lütfen giriş yapınız.</p>
+<div style="position:fixed ;top: 200px;left:568px; color:#082465;font-size:40px;font-weight:normal;text-align:center;height:400px;width:400px;" id="border" >
 <form action="baglanti_mat.php" method="POST">
-İsim: <input type="text" name="namee" value="" required placeholder="Lütfen Adınızı Girin."><br>
-Soyisim: <input type="text" name="lname" value="" required placeholder="Lütfen Soyadınızı Girin."><br>
-<input type="submit" value="Giriş">
+İsim: <input style="padding-right:3px;width:320px;height:60px;font-size:20px;margin-top:11px;margin-bottom:11px" type="text" name="namee" value="" required placeholder="Lütfen Adınızı Girin."><br>
+Soyisim: <input style="padding-right:3px;width:320px;height:60px;font-size:20px;margin-top:11px;margin-bottom:11px" type="text" name="lname" value="" required placeholder="Lütfen Soyadınızı Girin."><br>
+<input style="margin-top:11px ;" type="submit" value="Giriş">
 </form>
+</div>
 <?php /*
 $servername = "localhost";
 $database = "hilal_db";

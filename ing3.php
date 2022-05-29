@@ -61,12 +61,12 @@
                 <li class="nav-item active">
 
                 <div class="d-flex justify-content-center mt-5">
-                <a class="call_to-btn" href="index.html"><span>HOME</span></a>
+                <a style="margin-left: 5px;" class="call_to-btn" href="index.html"><span>HOME</span></a>
                 </li>
                 <li class="nav-item active">
 
                 <div class="d-flex justify-content-center mt-5">
-                <a class="call_to-btn" href="ing.php"><span>GERİ</span></a>
+                <a style="margin-left: 5px;" class="call_to-btn" href="ing.php"><span>GERİ</span></a>
                 </li>
                 
               </ul>
@@ -140,7 +140,7 @@ cümle olumsuz olur. Ve bu kez cümleye “yapamam” – “edemem” anlamı k
       <p>➤  Unutmayalım. Olumsuz cümlede <b>“can not”</b> yerine kısaca<b> “can’t”</b> da kullanabiliriz.</p><br>
       <img src="images/ing17.jpg" class="ing12"><br><br>
 
-      <br>
+      <br><br><br>
 
 
 
@@ -148,7 +148,7 @@ cümle olumsuz olur. Ve bu kez cümleye “yapamam” – “edemem” anlamı k
 
       
       
-           <a href="ing-quiz.php" class="quiz-buton"><span>HAYDİ ŞİMDİ QUİZE</span></a>
+           <a href="regis_ing.php" class="quiz-buton"><span>HAYDİ ŞİMDİ QUİZE</span></a>
        <br><br>
           <img src="images/right-arrow.png" alt="">
         </a>

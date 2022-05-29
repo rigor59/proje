@@ -6,7 +6,8 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>Yönlendirme</title>
       <meta charset="utf-8">        
-      <meta http-equiv="refresh" content="0.0001;URL=http://localhost/proje/ing-quiz.php">
+      <meta http-equiv="refresh" content="0.0001;URL=http://localhost/projee/ing-quiz.php">
+
       
 </head>
 <body>
@@ -15,7 +16,7 @@
 
 $servername = "localhost";
 $database = "hilal_db";
-$username = "hilal";
+$username = "yunus";
 $password = "12345";
 // Create connection
 $conn = mysqli_connect($servername, $username, $password, $database);

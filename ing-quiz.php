@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html>
 
@@ -31,7 +29,6 @@
   <!-- responsive style -->
   <link href="css/responsive.css" rel="stylesheet" />
   <link href="http://fonts.cdnfonts.com/css/fff-galaxy" rel="stylesheet">
- 
 
 
 
@@ -42,8 +39,7 @@
 </head>
 
 <body>
-
-
+  
   <div class="top_container sub_pages ">
     <!-- header section strats -->
     <header class="header_section">
@@ -69,14 +65,12 @@
                 </li>
                  <li class="nav-item active">
                 <div class="d-flex justify-content-center mt-5">
-                  <a style="margin-left: 5px;" class="call_to-btn" href="ing3.html">GERİ</a>
+                  <a style="margin-left: 5px;" class="call_to-btn" href="ing3.php">GERİ</a>
                 </li>
 
                 
               </ul>
-              <form class="form-inline my-2 my-lg-0 ml-0 ml-lg-4 mb-3 mb-lg-0">
-                <button class="btn  my-2 my-sm-0 nav_search-btn" type="submit"></button>
-              </form>
+              
             </div>
         </nav>
       </div>
@@ -191,7 +185,7 @@
 <br>
 
 <div class="kolon sag" id="gerisayim" >
-<script src="sayac.js"></script>
+<script src="sayac_ing.js"></script>
 </div>
   
 <form action="sonuc_ing.php" method="POST">
@@ -345,21 +339,15 @@
 
 </div><br><br>
 
-<input type="submit" value="Gönder">
-
-
+<div style="text-align: end;margin-right: 80px;position: absolute; right: 0px; top: 3670px;">
+<input style="color:#082465;" type="submit" value="Gönder">
+</div>
 </form>
 
-
-
-<!-- <div style="text-align: end;margin-right: 80px;position: absolute; right: 0px; top: 3666px;">
-  <a href="sonuc.php"><input type="submit" value="Sınavı Bitir" /></a> -->
-
-
-
+</div>
+</div>
 </div>
 
-</div>
 
 
 
@@ -369,40 +357,9 @@
   <section class="container-fluid footer_section">
  
   </section>
-  <!-- footer section -->
-
-  <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
-  <script type="text/javascript" src="js/bootstrap.js"></script>
-  <!-- progreesbar script -->
-
-  </script>
-  <script>
-    // This example adds a marker to indicate the position of Bondi Beach in Sydney,
-    // Australia.
-    function initMap() {
-      var map = new google.maps.Map(document.getElementById('map'), {
-        zoom: 11,
-        center: {
-          lat: 40.645037,
-          lng: -73.880224
-        },
-      });
-
-      var image = 'images/maps-and-flags.png';
-      var beachMarker = new google.maps.Marker({
-        position: {
-          lat: 40.645037,
-          lng: -73.880224
-        },
-        map: map,
-        icon: image
-      });
-    }
-  </script>
-  <!-- google map js -->
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA8eaHt9Dh5H57Zh0xVTqxVdBFCvFMqFjQ&callback=initMap">
-  </script>
-  <!-- end google map js -->
+  
+  
+  
   
 </body>
 

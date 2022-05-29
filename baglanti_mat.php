@@ -5,7 +5,7 @@
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>Yönlendirme</title>
-      <meta http-equiv="refresh" content="0.0001;URL=http://localhost/proje/mat-quiz.php">
+      <meta http-equiv="refresh" content="0.0001;URL=http://localhost/projee/mat-quiz.php">
       
 </head>
 <body>
@@ -14,7 +14,7 @@
 
 $servername = "localhost";
 $database = "hilal_db";
-$username = "hilal";
+$username = "yunus";
 $password = "12345";
 // Create connection
 $conn = mysqli_connect($servername, $username, $password, $database);

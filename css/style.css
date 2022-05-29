@@ -1129,5 +1129,17 @@ a:focus {
   font-size: 50px;
 }
 
+.top_container.sonuc {
+  content: "";
+  position: absolute;
+  width: 48%;
+  height: 100%;
+  background: url(../images/cizgi.png);
+  background-size: cover;
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+
 
 /* end footer section*/

@@ -20,7 +20,7 @@ function updateGerisayim() {
   }
 
   if (sure < 0) {
-    window.location.href = "sonuc.html"; //sonuç.html'e anasayfa butonu eklenecek
+    window.location.href = "sonuc_mat.php"; //sonuç.html'e anasayfa butonu eklenecek
   } else {
     sure--;
   }
